@@ -102,3 +102,38 @@ a:visited {
 #congrats a:hover {
   text-decoration: underline;
 }
+
+#main-footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  justify-content: space-between;
+  background-color: white;
+  border-top: 1px solid #e4e4e4;
+  height: 40px;
+  font-size: 13px;
+}
+
+#main-footer .footer-left {
+  display: flex;
+  width: 50%;
+  list-style-type: none;
+  /* padding-left: 27px; */
+}
+
+#main-footer .footer-right {
+  display: flex;
+  width: 50%;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+#main-footer ul li a {
+  color: grey;
+  padding: 0.75rem;
+  align-items: flex-start;
+}
+#main-footer ul li a:hover {
+  text-decoration: underline;
+}
